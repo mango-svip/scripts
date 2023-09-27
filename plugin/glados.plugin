@@ -1,0 +1,11 @@
+#!name=Glados签到
+#!desc=Glados签到
+#!homepage=https://glados.rocks/
+#!author=
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GLaDOS.png
+
+[Script]
+http-request https://glados.rocks/api/user/checkin script-path=https://raw.githubusercontent.com/mango-svip/scripts/main/script/glados.js
+
+[MITM]
+hostname = glados.rocks
