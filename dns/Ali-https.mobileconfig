@@ -20,7 +20,7 @@
 				<string>https://dns.alidns.com/dns-query</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Configures device to use AliDNS Encrypted DNS over TLS</string>
+			<string>Configures device to use AliDNS Encrypted DNS over HTTPS</string>
 			<key>PayloadDisplayName</key>
 			<string>Ali DNS over HTTPS</string>
 			<key>PayloadIdentifier</key>
