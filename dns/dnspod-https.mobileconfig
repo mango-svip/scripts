@@ -10,14 +10,8 @@
         <dict>
           <key>DNSProtocol</key>
           <string>HTTPS</string>
-          <key>ServerAddresses</key>
-          <array>
-            <string>2402:4e00::</string>
-            <string>1.12.12.12</string>
-            <string>120.53.53.53</string>
-          </array>
           <key>ServerURL</key>
-          <string>https://doh.pub/dns-query</string>
+          <string>https://120.53.53.53/dns-query</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
