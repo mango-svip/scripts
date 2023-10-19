@@ -10,6 +10,8 @@
         <dict>
           <key>DNSProtocol</key>
           <string>HTTPS</string>
+          <key>ServerAddresses</key>
+          <array/>
           <key>ServerURL</key>
           <string>https://120.53.53.53/dns-query</string>
         </dict>
