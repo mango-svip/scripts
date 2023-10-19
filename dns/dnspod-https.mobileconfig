@@ -24,7 +24,7 @@
 			<key>PayloadIdentifier</key>
 			<string>mm.dnspod.dnsSettings.managed.C498EC0C-EF6C-44F0-BFB7-0000658B99AC</string>
 			<key>PayloadType</key>
-			<string>mm.dnspod.dnsSettings.managed</string>
+			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
 			<string>065AB183-5E34-4794-9BEB-B5327CF61F27</string>
 			<key>PayloadVersion</key>
