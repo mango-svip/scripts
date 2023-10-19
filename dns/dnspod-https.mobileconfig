@@ -41,7 +41,7 @@
         <key>PayloadDescription</key>
         <string>Configures device to use DNSPod Encrypted DNS over HTTPS</string>
         <key>PayloadDisplayName</key>
-        <string>DNSPod DNS over HTTPS</string>
+        <string>DNSPod over HTTPS</string>
         <key>PayloadIdentifier</key>
         <string>com.apple.dnsSettings.managed.d3a8f3bc-5352-4647-ba89-47fce83ab8e4</string>
         <key>PayloadType</key>
@@ -57,7 +57,7 @@
     <key>PayloadDescription</key>
     <string>添加 DNSPod DoH</string>
     <key>PayloadDisplayName</key>
-    <string>DNSPod DoH</string>
+    <string>DNSPod over HTTPS</string>
     <key>PayloadIdentifier</key>
     <string>com.notjakob.apple-dns.96e2dc2b-338a-45f5-b2af-ae7802395515</string>
     <key>PayloadRemovalDisallowed</key>
