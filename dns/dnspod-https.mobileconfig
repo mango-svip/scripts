@@ -55,9 +55,9 @@
       </dict>
     </array>
     <key>PayloadDescription</key>
-    <string>Adds different encrypted DNS configurations to Big Sur (or newer) and iOS 14 (or newer) based systems</string>
+    <string>添加 DNSPod DoH</string>
     <key>PayloadDisplayName</key>
-    <string>Encrypted DNS (DoH, DoT)</string>
+    <string>DNSPod DoH</string>
     <key>PayloadIdentifier</key>
     <string>com.notjakob.apple-dns.96e2dc2b-338a-45f5-b2af-ae7802395515</string>
     <key>PayloadRemovalDisallowed</key>
