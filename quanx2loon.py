@@ -155,11 +155,21 @@ hostname = {{quanx.hostname}}
 import json
 
 def lambda_handler(event, context):
-    url = event['queryStringParameters']['url']
+    parameters = event['queryStringParameters']
+    if not parameters:
+        return {
+        'statusCode': 200,
+        'body': "请填入要转换的文件路径"
+        }
+    url = parameters.get('url')
     url_content = ''
-    if url :
-        response = requests.get(url)
-        url_content = response.text
+    if not url :
+        return {
+        'statusCode': 200,
+        'body': "请填入要转换的文件路径"
+        }
+    response = requests.get(url)
+    url_content = response.text
     quanx = QuanxConfig(url_content)
     content = loon_template.render(quanx=quanx)
     return {
