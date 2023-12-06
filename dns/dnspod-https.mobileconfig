@@ -11,29 +11,13 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerAddresses</key>
-          <array/>
+          <array>
+            <string>1.12.12.12</string>
+            <string>120.53.53.53</string>
+          </array>
           <key>ServerURL</key>
-          <string>https://120.53.53.53/dns-query</string>
+          <string>https://doh.pub/dns-query</string>
         </dict>
-        <key>OnDemandRules</key>
-        <array>
-          <dict>
-            <key>Action</key>
-            <string>Connect</string>
-            <key>InterfaceTypeMatch</key>
-            <string>WiFi</string>
-          </dict>
-          <dict>
-            <key>Action</key>
-            <string>Connect</string>
-            <key>InterfaceTypeMatch</key>
-            <string>Cellular</string>
-          </dict>
-          <dict>
-            <key>Action</key>
-            <string>Disconnect</string>
-          </dict>
-        </array>
         <key>PayloadDescription</key>
         <string>Configures device to use DNSPod Encrypted DNS over HTTPS</string>
         <key>PayloadDisplayName</key>
