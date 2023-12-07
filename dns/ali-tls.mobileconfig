@@ -36,7 +36,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds the AliDNS to Big Sur and iOS 14 based systems</string>
+	<string>Adds the AliDNS to iOS systems</string>
 	<key>PayloadDisplayName</key>
 	<string>Ali DNS over TLS</string>
 	<key>PayloadIdentifier</key>
