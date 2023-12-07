@@ -21,7 +21,7 @@
         <key>PayloadDescription</key>
         <string>Configures device to use DNSPod Encrypted DNS over HTTPS</string>
         <key>PayloadDisplayName</key>
-        <string>DNSPod over HTTPS</string>
+        <string>DNSPod DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
         <string>com.apple.dnsSettings.managed.d3a8f3bc-5352-4647-ba89-47fce83ab8e4</string>
         <key>PayloadType</key>
