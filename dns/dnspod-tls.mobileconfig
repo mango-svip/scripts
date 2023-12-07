@@ -38,7 +38,7 @@
 	<key>PayloadDisplayName</key>
 	<string>DnsPod DNS over TLS</string>
 	<key>PayloadIdentifier</key>
-	<string>com.paulmillr.apple-dns</string>
+	<string>apple-dns.c93b1f4a-0522-4aed-8e31-30eea0c10344</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
