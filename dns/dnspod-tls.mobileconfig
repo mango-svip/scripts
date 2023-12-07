@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.12.12.12</string>
+					<string>120.53.53.53</string>
+				</array>
+				<key>ServerName</key>
+				<string>dot.pub</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use DnsPod Encrypted DNS over TLS</string>
+			<key>PayloadDisplayName</key>
+			<string>DnsPod DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.58EAB2D2-1163-4A82-A7DB-8091D5EB4507</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>58EAB2D2-1163-4A82-A7DB-8091D5EB4507</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the DnsPod to Big Sur and iOS 14 based systems</string>
+	<key>PayloadDisplayName</key>
+	<string>DnsPod over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C93B1F4A-0522-4AED-8E31-30EEA0C10344</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
