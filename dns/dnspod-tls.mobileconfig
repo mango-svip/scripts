@@ -34,7 +34,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds the DnsPod to Big Sur and iOS 14 based systems</string>
+	<string>Adds the DnsPod to iOS systems</string>
 	<key>PayloadDisplayName</key>
 	<string>DnsPod DNS over TLS</string>
 	<key>PayloadIdentifier</key>
