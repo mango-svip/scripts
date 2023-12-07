@@ -37,7 +37,7 @@
     <key>PayloadDescription</key>
     <string>添加 DNSPod DoH</string>
     <key>PayloadDisplayName</key>
-    <string>DNSPod over HTTPS</string>
+    <string>DNSPod DNS over HTTPS</string>
     <key>PayloadIdentifier</key>
     <string>com.notjakob.apple-dns.96e2dc2b-338a-45f5-b2af-ae7802395515</string>
     <key>PayloadRemovalDisallowed</key>
