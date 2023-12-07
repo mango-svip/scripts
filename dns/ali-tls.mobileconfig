@@ -46,7 +46,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>6C7F342C-930C-49D7-8FFF-750F38CE39DD</string>
+	<string>6c7f342c-930c-49d7-8fff-750f38ce39dd</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
