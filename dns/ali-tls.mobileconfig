@@ -40,7 +40,7 @@
 	<key>PayloadDisplayName</key>
 	<string>Ali DNS over TLS</string>
 	<key>PayloadIdentifier</key>
-	<string>com.paulmillr.apple-dns</string>
+	<string>apple-dns.6c7f342c-930c-49d7-8fff-750f38ce39dd</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
