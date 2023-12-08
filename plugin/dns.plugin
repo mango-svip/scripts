@@ -1,0 +1,6 @@
+#!name= DoH server
+#!desc= DoH server
+
+[General]
+# DoH server，标准的url格式，以,分割多个地址
+dns-server = https://doh.pub/dns-query,https://1.1.1.1/dns-query,https://dns.alidns.com/dns-query,119.29.29.29,223.5.5.5
