@@ -38,6 +38,9 @@ http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/trendi
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/user\/teenager\/status reject-dict
 # 小红书_启动引导
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/guide\/home_guide reject-dict
+# 评论区图片水印
+^https:\/\/ci\.xiaohongshu\.com\/system_config\/watermark url reject-img
+
 
 [MITM]
-hostname = edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com
+hostname = edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com, ci.xiaohongshu.com
