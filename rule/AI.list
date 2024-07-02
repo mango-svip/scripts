@@ -9,3 +9,5 @@ DOMAIN-KEYWORD,poe
 DOMAIN-KEYWORD,ciciai
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,bito.ai
+# openAI 上传文件
+DOMAIN-SUFFIX,oaiusercontent.com
