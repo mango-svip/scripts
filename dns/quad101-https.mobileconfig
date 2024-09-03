@@ -1,0 +1,49 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerAddresses</key>
+          <array/>
+          <key>ServerURL</key>
+          <string>https://101.101.101.101/dns-query</string>
+        </dict>
+        <key>PayloadDescription</key>
+        <string>Configures device to use QUAD101 Encrypted DNS over HTTPS</string>
+        <key>PayloadDisplayName</key>
+        <string>QUAD101 DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.dnsSettings.managed.2191d788-63c9-41a0-9fdb-8f3ef9e1bb97</string>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>9a3ad29e-3668-4a8b-aae7-41a1642ef3bc</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>ProhibitDisablement</key>
+        <false/>
+      </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>添加 QUAD101 DoH</string>
+    <key>PayloadDisplayName</key>
+    <string>QUAD101 DNS over HTTPS</string>
+    <key>PayloadIdentifier</key>
+    <string>com.notjakob.apple-dns.29ce2978-81c4-4f50-8edd-5ff48a582a2d</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>7432e41a-36d4-4069-8c5b-f6353ba4daa1</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
