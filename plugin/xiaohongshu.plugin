@@ -15,6 +15,12 @@ AND, ((PROTOCOL, UDP), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/guide\/user_banner|v3\/note\/guide) reject-dict
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/(?:v1\/ads\/resource|v2\/hey\/\w+\/hey_gallery) reject-dict
 
+# 评论区图片水印 (实验功能可能无效)
+^https?:\/\/ci\.xiaohongshu\.com\/system_config\/watermark reject-img
+# 评论区用户id置空 (实验功能可能无效)
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/comment\/list response-body-replace-regex red_id fmz200
+
+
 [Script]
 # 详情页小部件、关注页感兴趣的人
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(?:note\/widgets|user\/followings\/followfeed) script-path = https://raw.githubusercontent.com/mango-svip/scripts/main/script/xiaohongshu.js, requires-body = true, tag = 移除详情页小部件
