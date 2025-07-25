@@ -1,5 +1,5 @@
-#!name=local
-#!desc=local
+#!name = 小红书
+#!desc = 更舒服的生活指南。
 #!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1084.png
 
 [Rewrite]
