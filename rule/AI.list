@@ -23,3 +23,5 @@ DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,skywork.ai
 DOMAIN-SUFFIX,augmentcode.com
+# google 动态
+DOMAIN-SUFFIX,usercontent.goog
